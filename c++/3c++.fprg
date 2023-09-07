@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-07 11:27:14 AM"/>
+        <attribute name="created" value="SHA7REVTS1RPUC1NUU5KMk5QOzIwMjMtMDktMDM7MTA6MzE6NDMgUE07MjU2MA=="/>
+        <attribute name="edited" value="SHA7REVTS1RPUC1NUU5KMk5QOzIwMjMtMDktMDc7MTE6Mjc6MTQgQU07MjsyNjYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <declare name="average" type="Integer" array="False" size=""/>
+            <assign variable="average" expression="a/b"/>
+            <output expression="average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

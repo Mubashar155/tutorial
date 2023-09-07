@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-07 11:27:44 AM"/>
+        <attribute name="created" value="SHA7REVTS1RPUC1NUU5KMk5QOzIwMjMtMDktMDM7MTA6MDY6NTUgUE07MjU2NQ=="/>
+        <attribute name="edited" value="SHA7REVTS1RPUC1NUU5KMk5QOzIwMjMtMDktMDc7MTE6Mjc6NDQgQU07MjsyNjY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v, r" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="v" expression="4/3 *3.14 *r*r*r"/>
+            <output expression="v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

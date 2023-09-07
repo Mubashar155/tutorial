@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-07 11:26:07 AM"/>
+        <attribute name="created" value="SHA7REVTS1RPUC1NUU5KMk5QOzIwMjMtMDktMDM7MTA6NTM6MTUgUE07MjU2Mw=="/>
+        <attribute name="edited" value="SHA7REVTS1RPUC1NUU5KMk5QOzIwMjMtMDktMDc7MTE6MjY6MDcgQU07MjsyNjYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a &gt; b">
+                <then>
+                    <if expression="a&gt;c">
+                        <then>
+                            <input variable="a"/>
+                        </then>
+                        <else>
+                            <input variable="c"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <input variable="c"/>
+                    <if expression="b&gt;c">
+                        <then>
+                            <input variable="b"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
